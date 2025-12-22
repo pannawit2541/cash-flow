@@ -57,6 +57,8 @@ importers:
 
   packages/typescript-config: {}
 
+  server: {}
+
 packages:
 
   '@alloc/quick-lru@5.2.0':
