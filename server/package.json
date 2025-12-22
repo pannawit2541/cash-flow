@@ -1,0 +1,10 @@
+{
+    "name": "server",
+    "private": true,
+    "scripts": {
+        "dev": "make dev",
+        "build": "make build",
+        "test": "make test",
+        "lint": "make lint"
+    }
+}
