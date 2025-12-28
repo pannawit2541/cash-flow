@@ -5,6 +5,9 @@
         "dev": "make dev",
         "build": "make build",
         "test": "make test",
-        "lint": "make lint"
+        "lint": "make lint",
+        "migrate:generate": "migrate create -ext json -dir migrations/",
+        "migrate:up": "make migrate-up",
+        "migrate:down": "make migrate-down"
     }
 }
