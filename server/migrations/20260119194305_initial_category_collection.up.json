@@ -1,0 +1,36 @@
+[
+    {
+        "create": "categories",
+        "validator": {
+            "$jsonSchema": {
+                "bsonType": "object",
+                "required": [
+                    "name",
+                    "createdAt",
+                    "updatedAt"
+                ],
+                "properties": {
+                    "name": {
+                        "bsonType": "string",
+                        "description": "must be a string and is required"
+                    },
+                    "createdAt": {
+                        "bsonType": "date",
+                        "description": "must be a date and is required"
+                    },
+                    "updatedAt": {
+                        "bsonType": "date",
+                        "description": "must be a date and is required"
+                    },
+                    "deletedAt": {
+                        "bsonType": [
+                            "date",
+                            "null"
+                        ],
+                        "description": "must be a date or null"
+                    }
+                }
+            }
+        }
+    }
+]
