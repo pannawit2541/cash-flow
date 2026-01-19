@@ -55,8 +55,6 @@ importers:
         specifier: ^5
         version: 5.9.2
 
-  packages/typescript-config: {}
-
   server: {}
 
 packages:
